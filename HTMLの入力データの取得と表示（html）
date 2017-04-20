@@ -1,0 +1,15 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body>
+  <form action="./sample.php" method="post">
+   <br><input type="text" name="txtName"></br>
+   <br><p>men</p><input type="radio" name="radioSample"></br>
+   <p>women</p><input type="radio" name="radioSample">
+   <br><textarea name="mulText"></textarea></br>
+
+   <input type="submit" name="btnSubmit">
+  </from>
+ </body>
+</html>
