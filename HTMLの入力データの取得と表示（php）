@@ -1,0 +1,11 @@
+<?php
+$textbox=$_POST['txtName'];
+$radio=$_POST['radioSample'];
+$radio=$_POST['radioSample'];
+$textarea=$_POST['mulText'];
+
+echo $textbox;
+echo $radio;
+echo $radio;
+echo $textarea;
+?>
