@@ -1,0 +1,7 @@
+<?php
+$access_time=date('Y年m月d日');
+setcookie('LastLoginDate',$access_time);
+$lastDate=$_COOKIE['LastLoginDate'];
+echo 'お帰り！かやさん！<br>';
+echo '前回ログイン日は、'.$lastDate.'です！';
+?>
