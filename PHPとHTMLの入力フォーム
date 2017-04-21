@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body>
+  <form action="./sample.php" method="post">
+   <p>Please enter your name</p>
+   <input type="text" name="txtName" value=$_SESSION['tn'];>
+   <p>men</p><input type="radio" name="radioSample" value=$_SESSION['rSm'];>
+   <p>women</p><input type="radio" name="radioSample" value=$_SESSION['rSw'];>
+   <p>Please enter your hobbies</p>
+   <br><textarea name="mulText" value=$_SESSION['ta'];></textarea></br>
+
+   <input type="submit" name="btnSubmit">
+  </from>
+ </body>
+</html>
