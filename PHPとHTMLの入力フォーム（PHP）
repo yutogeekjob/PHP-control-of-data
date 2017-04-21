@@ -1,0 +1,12 @@
+<?php
+$textbox=$_POST['txtName'];
+$radiom=$_POST['radioSample'];
+$radiow=$_POST['radioSample'];
+$textarea=$_POST['mulText'];
+
+session_start();
+$_SESSION['tn']=$textbox;
+$_SESSION['rSm']=$radiom;
+$_SESSION['rSw']=$radiow;
+$_SESSION['ta']=$textarea;
+?>
